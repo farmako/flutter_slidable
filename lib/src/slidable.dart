@@ -35,6 +35,7 @@ class Slidable extends StatefulWidget {
   /// The Slidable widget controller.
   final SlidableController? controller;
 
+  /// A callback that is called when the slide animation changes.
   final Function(Animation<Offset> animation)? onSlideAnimationChanged;
 
   /// Whether this slidable is interactive.
